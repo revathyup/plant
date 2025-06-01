@@ -10,7 +10,7 @@ The Smart Gardening System is built using:
    - Collects data from multiple sensors:
      - TSL2591 Light Sensor (I2C): measures light intensity
      - MCP9700 Temperature Sensor (ADC): measures ambient temperature
-     - STEMMA Soil Moisture Sensor (I2C): measures soil moisture
+     - BME 680 humidity sensor (I2C): measures air humidity
    - Communicates with base node via UART
 
 2. **Base Node** (Raspberry Pi Pico with Zephyr RTOS)
@@ -33,26 +33,16 @@ The nodes communicate using a binary protocol with the following format:
 ### Sensor Node
 - TSL2591 Light Sensor: I2C (GPIO 4, 5)
 - MCP9700 Temperature Sensor: ADC0 (GPIO 26)
-- STEMMA Soil Moisture Sensor: I2C (GPIO 4, 5)
+- BME Humidity Sensor: I2C (GPIO 4, 5)
 - UART for node communication: TX (GPIO 8), RX (GPIO 9)
 
 ### Base Node
 - UART for node communication: TX (GPIO 8), RX (GPIO 9)
-- UART for console interface: USB/UART0
+- UART for console interface: USB CDC ACM
 
 ## Terminal Interface
 
-The base node provides a command-line interface via USB/UART with the following commands:
-- `help` - Display help information
-- `ping` - Ping the sensor node
-- `show light` - Show light sensor data
-- `show temp` - Show temperature sensor data
-- `show soil` - Show soil moisture sensor data
-- `show all` - Show all sensor data
-- `show thresholds` - Show all threshold values
-- `set light low|high <value>` - Set light threshold (lux)
-- `set temp low|high <value>` - Set temperature threshold (°C)
-- `set soil dry|wet <value>` - Set soil moisture threshold (0-1000)
+
 
 ## Building and Flashing
 
