@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/CMakeFiles/picotoolBuild
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/CMakeFiles/picotoolBuild.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/CMakeFiles/picotoolBuild-complete.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

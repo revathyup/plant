@@ -1,0 +1,6 @@
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool/picotool
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool/picotoolTargets.cmake
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool/picotoolTargets-release.cmake
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool/picotoolConfig.cmake
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool/picotoolConfigVersion.cmake
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool/enc_bootloader.elf

@@ -1,0 +1,13 @@
+# Target labels
+ enc_bootloader
+# Source files and their labels
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool-build/CMakeFiles/enc_bootloader
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool-build/CMakeFiles/enc_bootloader.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool-build/CMakeFiles/enc_bootloader-complete.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-build.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch.rule
+/home/reva/zephyrproject/sensorbasenode-main/sensor_node/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update.rule

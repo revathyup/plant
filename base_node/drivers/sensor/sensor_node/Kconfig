@@ -1,0 +1,15 @@
+config SENSOR_NODE
+    bool "Sensor Node Driver"
+    default n
+    depends on SENSOR && UART_INTERRUPT_DRIVEN
+    help
+      Enable sensor node driver that communicates over UART to receive 
+      sensor data from remote sensor nodes.
+
+config SENSOR_NODE_INIT_PRIORITY
+    int "Sensor Node initialization priority"
+    default 90
+    depends on SENSOR_NODE
+    help
+      Sets the initialization priority for the sensor node.
+      This must be higher than the uart driver initialization priority.
